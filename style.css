@@ -1,0 +1,117 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #8f4949;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    color: orange;
+}
+
+input {
+    height: 70px;
+    width: 90%;
+    font-size: 57px;
+    border-radius: 7px;
+    border: none;
+    margin-bottom: 10px;
+    text-align: right;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    background-color: black;
+    color: white;
+}
+
+/* input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+} */
+
+input[readonly] {
+    pointer-events: none;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.row1, .row2, .row3, .row4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    font-size: 1.8rem;
+    width: 100%;
+    /* margin-left: 30px; */
+    color: white;
+}
+
+.row5 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    /* gap: 10px; */
+    justify-content: center; 
+    align-items: center;
+    flex-direction: row;
+    /* gap: 10px; */
+    font-size: 1.8rem;
+    width: 100%;
+    /* margin-left: 30px; */
+    color: white;
+    margin-bottom: 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin-bottom: 5px;
+    /* padding: 10px; */
+    cursor: pointer;
+    background-color: rgb(37, 35, 35);
+    margin-left: 8px;
+    user-select: none;
+}
+
+.zer {
+    border-radius: 35px;
+    /* padding: 25px; */
+    font-size: 1.8rem;
+    width: 160px;
+}
+
+.DEL {
+    /* padding: 15px; */
+    font-size: 1.8rem;
+}
+
+.color1 {
+    background-color: rgb(113, 113, 113);
+}
+
+.color2 {
+    background-color: orange;
+}
